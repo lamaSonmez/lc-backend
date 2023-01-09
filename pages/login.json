@@ -1,0 +1,1329 @@
+{
+  "page": {
+    "id": 2,
+    "name": "Login Page",
+    "components": [
+      {
+        "hidden": false,
+        "order": 1,
+        "id": 0.7154329,
+        "container": 0,
+        "config": {
+          "type": "column",
+          "name": "Column",
+          "icon": "view_column",
+          "category": "Layout",
+          "properties": {
+            "width": {
+              "type": "width",
+              "name": "width",
+              "value": "100",
+              "category": "Layout"
+            },
+            "height": {
+              "type": "height",
+              "name": "height",
+              "value": "100",
+              "category": "Layout"
+            },
+            "margin": {
+              "type": "margin",
+              "name": "margin",
+              "category": "Layout",
+              "value": "0px 0px 0px 0px"
+            },
+            "padding": {
+              "type": "padding",
+              "name": "padding",
+              "category": "Layout",
+              "value": "0px 0px 0px 0px"
+            },
+            "backgroundColor": {
+              "type": "color",
+              "name": "BG color",
+              "value": "",
+              "color": "#fff",
+              "category": "Background"
+            },
+            "backgroundImage": {
+              "type": "background-image",
+              "name": "BG image",
+              "value": "",
+              "category": "Background",
+              "properties": {
+                "position": {
+                  "type": "background-position",
+                  "name": "Position",
+                  "value": "center",
+                  "category": "Background"
+                },
+                "size": {
+                  "type": "background-size",
+                  "name": "Size",
+                  "value": "cover",
+                  "xValue": "",
+                  "yValue": "",
+                  "category": "Background"
+                },
+                "repeate": {
+                  "type": "background-repeat",
+                  "name": "Repeate Image",
+                  "value": "no-repeat",
+                  "category": "Background"
+                }
+              }
+            }
+          }
+        },
+        "components": [
+          {
+            "hidden": false,
+            "order": 1,
+            "id": 1.1561837802882808,
+            "container": 0.7154329,
+            "config": {
+              "type": "card",
+              "name": "Card",
+              "icon": "inbox",
+              "category": "General",
+              "properties": {
+                "margin": {
+                  "type": "margin",
+                  "name": "margin",
+                  "category": "Layout",
+                  "value": "20px 0px 40px 0px"
+                },
+                "padding": {
+                  "type": "padding",
+                  "name": "padding",
+                  "category": "Layout",
+                  "value": "0px 0px 20px 0px"
+                },
+                "width": {
+                  "type": "width",
+                  "name": "width",
+                  "value": "100",
+                  "category": "Layout"
+                },
+                "cardWidth": {
+                  "type": "width",
+                  "name": "Card width",
+                  "value": "30",
+                  "unit": "%"
+                },
+                "hAlignment": {
+                  "type": "h-alignment",
+                  "name": "H",
+                  "category": "Alignment",
+                  "value": "center"
+                },
+                "boxShadow": {
+                  "type": "box-shadow",
+                  "name": "Shadow",
+                  "value": "-7px 10px 20px 6px rgba(0,0,0,0.5)",
+                  "category": "Box Shadow"
+                }
+              }
+            },
+            "components": [
+              {
+                "hidden": false,
+                "order": 1,
+                "id": 2.1561837802882806,
+                "container": 1.1561837802882808,
+                "config": {
+                  "type": "row",
+                  "name": "Row",
+                  "icon": "view_agenda",
+                  "category": "Layout",
+                  "properties": {
+                    "backgroundColor": {
+                      "type": "color",
+                      "name": "BG color",
+                      "value": "",
+                      "color": "",
+                      "category": "Background"
+                    },
+                    "margin": {
+                      "type": "margin",
+                      "name": "margin",
+                      "category": "Layout",
+                      "value": "0px 0px 0px 0px"
+                    },
+                    "padding": {
+                      "type": "padding",
+                      "name": "padding",
+                      "category": "Layout",
+                      "value": "0px 0px 0px 0px"
+                    },
+                    "height": {
+                      "type": "height",
+                      "name": "height",
+                      "category": "Layout",
+                      "value": "auto"
+                    },
+                    "backgroundImage": {
+                      "type": "background-image",
+                      "name": "BG image",
+                      "value": "",
+                      "category": "Background",
+                      "properties": {
+                        "position": {
+                          "type": "background-position",
+                          "name": "Position",
+                          "value": "center",
+                          "category": "Background"
+                        },
+                        "size": {
+                          "type": "background-size",
+                          "name": "Size",
+                          "value": "cover",
+                          "xValue": "",
+                          "yValue": "",
+                          "category": "Background"
+                        },
+                        "repeate": {
+                          "type": "background-repeat",
+                          "name": "Repeate Image",
+                          "value": "no-repeat",
+                          "category": "Background"
+                        }
+                      }
+                    },
+                    "flexDirection": {
+                      "type": "direction",
+                      "name": "Items direction",
+                      "value": "flex-row",
+                      "category": "Layout"
+                    },
+                    "justifyContent": {
+                      "type": "justify-content",
+                      "name": "H Alignment",
+                      "value": "justify-content-center",
+                      "category": "Layout"
+                    },
+                    "alignItems": {
+                      "type": "align-items",
+                      "name": "V Alignment",
+                      "value": "align-items-center",
+                      "category": "Layout"
+                    }
+                  }
+                },
+                "components": [
+                  {
+                    "hidden": false,
+                    "order": 1,
+                    "id": 3.1561837802882806,
+                    "container": 2.1561837802882806,
+                    "config": {
+                      "type": "column",
+                      "name": "Column",
+                      "icon": "view_column",
+                      "category": "Layout",
+                      "properties": {
+                        "width": {
+                          "type": "width",
+                          "name": "width",
+                          "value": "100",
+                          "category": "Layout"
+                        },
+                        "height": {
+                          "type": "height",
+                          "name": "height",
+                          "value": "100",
+                          "category": "Layout"
+                        },
+                        "margin": {
+                          "type": "margin",
+                          "name": "margin",
+                          "category": "Layout",
+                          "value": "0px 0px 0px 0px"
+                        },
+                        "padding": {
+                          "type": "padding",
+                          "name": "padding",
+                          "category": "Layout",
+                          "value": "0px 0px 0px 0px"
+                        },
+                        "backgroundColor": {
+                          "type": "color",
+                          "name": "BG color",
+                          "value": "",
+                          "color": "#92000A",
+                          "category": "Background"
+                        },
+                        "bacgroundGradientColor": {
+                          "type": "gradient-color",
+                          "name": "BG Gradient Color",
+                          "value": "",
+                          "category": "Background"
+                        },
+                        "backgroundImage": {
+                          "type": "background-image",
+                          "name": "BG image",
+                          "value": "",
+                          "category": "Background",
+                          "properties": {
+                            "position": {
+                              "type": "background-position",
+                              "name": "Position",
+                              "value": "center",
+                              "category": "Background"
+                            },
+                            "size": {
+                              "type": "background-size",
+                              "name": "Size",
+                              "value": "cover",
+                              "xValue": "",
+                              "yValue": "",
+                              "category": "Background"
+                            },
+                            "repeate": {
+                              "type": "background-repeat",
+                              "name": "Repeate Image",
+                              "value": "no-repeat",
+                              "category": "Background"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "components": [
+                      {
+                        "hidden": false,
+                        "order": 1,
+                        "id": 4.156183780288281,
+                        "container": 3.1561837802882806,
+                        "config": {
+                          "type": "text",
+                          "name": "Text",
+                          "icon": "title",
+                          "category": "General",
+                          "properties": {
+                            "text": {
+                              "type": "text",
+                              "name": "Text",
+                              "value": "Log in Members"
+                            },
+                            "width": {
+                              "type": "width",
+                              "name": "width",
+                              "value": "100",
+                              "category": "Layout"
+                            },
+                            "height": {
+                              "type": "height",
+                              "name": "width",
+                              "value": "auto",
+                              "category": "Layout"
+                            },
+                            "margin": {
+                              "type": "margin",
+                              "name": "margin",
+                              "category": "Layout",
+                              "value": "20px 0px 10px 0px"
+                            },
+                            "padding": {
+                              "type": "padding",
+                              "name": "padding",
+                              "category": "Layout",
+                              "value": "0px 0px 0px 0px"
+                            },
+                            "textAlign": {
+                              "type": "h-alignment",
+                              "name": "text align",
+                              "value": "center"
+                            },
+                            "fontSize": {
+                              "type": "font-size",
+                              "name": "Size",
+                              "value": "24",
+                              "unit": "px"
+                            },
+                            "fontWeight": {
+                              "type": "font-weight",
+                              "name": "Weight",
+                              "value": "300"
+                            },
+                            "fontColor": {
+                              "type": "color",
+                              "name": "Color",
+                              "value": "",
+                              "color": "#fff"
+                            },
+                            "backgroundColor": {
+                              "type": "color",
+                              "name": "Background Color",
+                              "value": "",
+                              "color": "#"
+                            }
+                          }
+                        },
+                        "components": []
+                      },
+                      {
+                        "hidden": false,
+                        "order": 2,
+                        "id": 1.6375016963879423,
+                        "container": 3.1561837802882806,
+                        "config": {
+                          "type": "line",
+                          "name": "Line",
+                          "icon": "linear_scale",
+                          "category": "General",
+                          "properties": {
+                            "width": {
+                              "type": "width",
+                              "name": "width",
+                              "value": "100",
+                              "category": "Layout"
+                            },
+                            "height": {
+                              "type": "height",
+                              "name": "height",
+                              "value": "2",
+                              "unit": "px",
+                              "category": "Layout"
+                            },
+                            "margin": {
+                              "type": "margin",
+                              "name": "margin",
+                              "category": "Layout",
+                              "value": "0px 20px 0px 20px"
+                            },
+                            "padding": {
+                              "type": "padding",
+                              "name": "padding",
+                              "category": "Layout",
+                              "value": "0px 0px 0px 0px"
+                            },
+                            "color": {
+                              "type": "color",
+                              "name": "Color",
+                              "value": "",
+                              "color": "#fff"
+                            }
+                          }
+                        },
+                        "components": []
+                      },
+                      {
+                        "hidden": false,
+                        "order": 3,
+                        "id": 1.7630906472946801,
+                        "container": 3.1561837802882806,
+                        "config": {
+                          "type": "image",
+                          "name": "Image",
+                          "icon": "image",
+                          "category": "General",
+                          "properties": {
+                            "width": {
+                              "type": "width",
+                              "name": "width",
+                              "value": "100",
+                              "unit": "%",
+                              "category": "Layout"
+                            },
+                            "height": {
+                              "type": "height",
+                              "name": "Height",
+                              "value": "100",
+                              "unit": "%",
+                              "category": "Layout"
+                            },
+                            "margin": {
+                              "type": "margin",
+                              "name": "margin",
+                              "category": "Layout",
+                              "value": "20px 35% 20px 35%"
+                            },
+                            "padding": {
+                              "type": "padding",
+                              "name": "padding",
+                              "category": "Layout",
+                              "value": "0px 0px 0px 0px"
+                            },
+                            "image": {
+                              "type": "image",
+                              "name": "src",
+                              "value": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAIAAACx0UUtAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MUY2OTlENzU3RDE5MTFFNzlGMDVENzc3NUY0MkM2QUEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MUY2OTlENzY3RDE5MTFFNzlGMDVENzc3NUY0MkM2QUEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoxRjY5OUQ3MzdEMTkxMUU3OUYwNUQ3Nzc1RjQyQzZBQSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoxRjY5OUQ3NDdEMTkxMUU3OUYwNUQ3Nzc1RjQyQzZBQSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PmvZlKMAABVHSURBVHja7J39UxrJ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"
+                            },
+                            "text": {
+                              "type": "text",
+                              "name": "alt",
+                              "value": ""
+                            },
+                            "borderRadius": {
+                              "type": "slider",
+                              "name": "Border Radius",
+                              "value": 386,
+                              "min": 0,
+                              "max": 1000,
+                              "step": 2
+                            }
+                          }
+                        },
+                        "components": []
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "config": {
+                          "type": "row",
+                          "name": "Row",
+                          "icon": "view_agenda",
+                          "category": "Layout",
+                          "properties": {
+                            "backgroundColor": {
+                              "type": "color",
+                              "name": "BG color",
+                              "value": "",
+                              "color": "",
+                              "category": "Background"
+                            },
+                            "margin": {
+                              "type": "margin",
+                              "name": "margin",
+                              "category": "Layout",
+                              "value": "0px 0px 0px 0px"
+                            },
+                            "padding": {
+                              "type": "padding",
+                              "name": "padding",
+                              "category": "Layout",
+                              "value": "0px 0px 0px 0px"
+                            },
+                            "height": {
+                              "type": "height",
+                              "name": "height",
+                              "category": "Layout",
+                              "value": "auto"
+                            },
+                            "backgroundImage": {
+                              "type": "background-image",
+                              "name": "BG image",
+                              "value": "",
+                              "category": "Background",
+                              "properties": {
+                                "position": {
+                                  "type": "background-position",
+                                  "name": "Position",
+                                  "value": "center",
+                                  "category": "Background"
+                                },
+                                "size": {
+                                  "type": "background-size",
+                                  "name": "Size",
+                                  "value": "cover",
+                                  "xValue": "",
+                                  "yValue": "",
+                                  "category": "Background"
+                                },
+                                "repeate": {
+                                  "type": "background-repeat",
+                                  "name": "Repeate Image",
+                                  "value": "no-repeat",
+                                  "category": "Background"
+                                }
+                              }
+                            },
+                            "flexDirection": {
+                              "type": "direction",
+                              "name": "Items direction",
+                              "value": "flex-row",
+                              "category": "Layout"
+                            },
+                            "justifyContent": {
+                              "type": "justify-content",
+                              "name": "H Alignment",
+                              "value": "justify-content-start",
+                              "category": "Layout"
+                            },
+                            "alignItems": {
+                              "type": "align-items",
+                              "name": "V Alignment",
+                              "value": "align-items-start",
+                              "category": "Layout"
+                            }
+                          }
+                        },
+                        "container": 0,
+                        "components": [],
+                        "id": null,
+                        "sections": [],
+                        "hidden": false,
+                        "order": 0
+                      }
+                    ]
+                  },
+                  {
+                    "hidden": false,
+                    "order": 2,
+                    "id": 1.5144286498356627,
+                    "container": 2.1561837802882806,
+                    "config": {
+                      "type": "column",
+                      "name": "Column",
+                      "icon": "view_column",
+                      "category": "Layout",
+                      "properties": {
+                        "width": {
+                          "type": "width",
+                          "name": "width",
+                          "value": "100",
+                          "category": "Layout"
+                        },
+                        "height": {
+                          "type": "height",
+                          "name": "height",
+                          "value": "100",
+                          "category": "Layout"
+                        },
+                        "margin": {
+                          "type": "margin",
+                          "name": "margin",
+                          "category": "Layout",
+                          "value": "0px 0px 0px 0px"
+                        },
+                        "padding": {
+                          "type": "padding",
+                          "name": "padding",
+                          "category": "Layout",
+                          "value": "0px 0px 0px 0px"
+                        },
+                        "backgroundColor": {
+                          "type": "color",
+                          "name": "BG color",
+                          "value": "",
+                          "color": "",
+                          "category": "Background"
+                        },
+                        "bacgroundGradientColor": {
+                          "type": "gradient-color",
+                          "name": "BG Gradient Color",
+                          "value": "",
+                          "category": "Background"
+                        },
+                        "backgroundImage": {
+                          "type": "background-image",
+                          "name": "BG image",
+                          "value": "",
+                          "category": "Background",
+                          "properties": {
+                            "position": {
+                              "type": "background-position",
+                              "name": "Position",
+                              "value": "center",
+                              "category": "Background"
+                            },
+                            "size": {
+                              "type": "background-size",
+                              "name": "Size",
+                              "value": "cover",
+                              "xValue": "",
+                              "yValue": "",
+                              "category": "Background"
+                            },
+                            "repeate": {
+                              "type": "background-repeat",
+                              "name": "Repeate Image",
+                              "value": "no-repeat",
+                              "category": "Background"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "components": [
+                      {
+                        "hidden": false,
+                        "order": 1,
+                        "id": 2.5144286498356627,
+                        "container": 1.5144286498356627,
+                        "config": {
+                          "type": "input-field",
+                          "name": "Input Field",
+                          "icon": "text_rotate_vertical",
+                          "category": "Form Control",
+                          "properties": {
+                            "label": {
+                              "type": "text",
+                              "name": "Label",
+                              "value": ""
+                            },
+                            "width": {
+                              "type": "width",
+                              "name": "width",
+                              "value": "100"
+                            },
+                            "hAlignment": {
+                              "type": "h-alignment",
+                              "name": "H",
+                              "category": "Alignment",
+                              "value": "left"
+                            },
+                            "vAlignment": {
+                              "type": "v-alignment",
+                              "name": "V",
+                              "value": "top",
+                              "category": "Alignment"
+                            },
+                            "margin": {
+                              "type": "margin",
+                              "name": "margin",
+                              "category": "Layout",
+                              "value": "30px 20px 0px 20px"
+                            },
+                            "padding": {
+                              "type": "padding",
+                              "name": "padding",
+                              "category": "Layout",
+                              "value": "0px 0px 0px 0px"
+                            },
+                            "backgroundColor": {
+                              "type": "color",
+                              "name": "BG Color",
+                              "category": "Background",
+                              "value": "",
+                              "color": ""
+                            },
+                            "labelColor": {
+                              "type": "color",
+                              "name": "Input Color",
+                              "category": "Font",
+                              "value": "",
+                              "color": "#000"
+                            },
+                            "inputType": {
+                              "type": "input-type",
+                              "name": "Input Type",
+                              "value": "text"
+                            }
+                          }
+                        },
+                        "components": [
+                          {
+                            "hidden": false,
+                            "order": 1,
+                            "id": 3.5144286498356627,
+                            "container": 2.5144286498356627,
+                            "config": {
+                              "type": "icon",
+                              "name": "Icon",
+                              "icon": "copyright",
+                              "category": "General",
+                              "properties": {
+                                "icon": {
+                                  "type": "icon",
+                                  "name": "Icon",
+                                  "value": "group"
+                                },
+                                "width": {
+                                  "type": "width",
+                                  "name": "width",
+                                  "value": "100",
+                                  "unit": "%",
+                                  "category": "Layout"
+                                },
+                                "height": {
+                                  "type": "height",
+                                  "name": "heiht",
+                                  "value": "30",
+                                  "unit": "px",
+                                  "category": "Layout"
+                                },
+                                "margin": {
+                                  "type": "margin",
+                                  "name": "margin",
+                                  "category": "Layout",
+                                  "value": "0px 0px 0px 0px"
+                                },
+                                "padding": {
+                                  "type": "padding",
+                                  "name": "padding",
+                                  "category": "Layout",
+                                  "value": "0px 0px 0px 0px"
+                                },
+                                "hAlignment": {
+                                  "type": "h-alignment",
+                                  "name": "horizontally",
+                                  "value": "left",
+                                  "category": "Alignment"
+                                },
+                                "vAlignment": {
+                                  "type": "v-alignment",
+                                  "name": "vertically",
+                                  "value": "top",
+                                  "category": "Alignment"
+                                },
+                                "fontSize": {
+                                  "type": "font-size",
+                                  "name": "Size",
+                                  "value": "30",
+                                  "unit": "px"
+                                },
+                                "fontColor": {
+                                  "type": "color",
+                                  "name": "Color",
+                                  "value": "",
+                                  "color": "#aaa"
+                                }
+                              }
+                            },
+                            "components": []
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "id": null,
+                            "config": {
+                              "type": "icon",
+                              "name": "Icon",
+                              "icon": "copyright",
+                              "category": "General",
+                              "properties": {
+                                "icon": {
+                                  "type": "icon",
+                                  "name": "Icon",
+                                  "value": "copyright"
+                                },
+                                "width": {
+                                  "type": "width",
+                                  "name": "width",
+                                  "value": "100",
+                                  "unit": "%",
+                                  "category": "Layout"
+                                },
+                                "height": {
+                                  "type": "height",
+                                  "name": "heiht",
+                                  "value": "30",
+                                  "unit": "px",
+                                  "category": "Layout"
+                                },
+                                "margin": {
+                                  "type": "margin",
+                                  "name": "margin",
+                                  "category": "Layout",
+                                  "value": "0px 0px 0px 0px"
+                                },
+                                "padding": {
+                                  "type": "padding",
+                                  "name": "padding",
+                                  "category": "Layout",
+                                  "value": "0px 0px 0px 0px"
+                                },
+                                "hAlignment": {
+                                  "type": "h-alignment",
+                                  "name": "horizontally",
+                                  "value": "left",
+                                  "category": "Alignment"
+                                },
+                                "vAlignment": {
+                                  "type": "v-alignment",
+                                  "name": "vertically",
+                                  "value": "top",
+                                  "category": "Alignment"
+                                },
+                                "fontSize": {
+                                  "type": "font-size",
+                                  "name": "Size",
+                                  "value": "30",
+                                  "unit": "px"
+                                },
+                                "fontColor": {
+                                  "type": "color",
+                                  "name": "Color",
+                                  "value": "",
+                                  "color": "#000"
+                                }
+                              }
+                            },
+                            "container": 0,
+                            "components": [],
+                            "hidden": false,
+                            "order": 0
+                          }
+                        ]
+                      },
+                      {
+                        "hidden": false,
+                        "order": 2,
+                        "id": 4.514428649835663,
+                        "container": 1.5144286498356627,
+                        "config": {
+                          "type": "input-field",
+                          "name": "Input Field",
+                          "icon": "text_rotate_vertical",
+                          "category": "Form Control",
+                          "properties": {
+                            "label": {
+                              "type": "text",
+                              "name": "Label",
+                              "value": ""
+                            },
+                            "width": {
+                              "type": "width",
+                              "name": "width",
+                              "value": "100"
+                            },
+                            "hAlignment": {
+                              "type": "h-alignment",
+                              "name": "H",
+                              "category": "Alignment",
+                              "value": "left"
+                            },
+                            "vAlignment": {
+                              "type": "v-alignment",
+                              "name": "V",
+                              "value": "top",
+                              "category": "Alignment"
+                            },
+                            "margin": {
+                              "type": "margin",
+                              "name": "margin",
+                              "category": "Layout",
+                              "value": "0px 20px 0px 20px"
+                            },
+                            "padding": {
+                              "type": "padding",
+                              "name": "padding",
+                              "category": "Layout",
+                              "value": "0px 0px 0px 0px"
+                            },
+                            "backgroundColor": {
+                              "type": "color",
+                              "name": "BG Color",
+                              "category": "Background",
+                              "value": "",
+                              "color": "#fff"
+                            },
+                            "labelColor": {
+                              "type": "color",
+                              "name": "Input Color",
+                              "category": "Font",
+                              "value": "",
+                              "color": "#000"
+                            },
+                            "inputType": {
+                              "type": "input-type",
+                              "name": "Input Type",
+                              "value": "password"
+                            }
+                          }
+                        },
+                        "components": [
+                          {
+                            "hidden": false,
+                            "order": 1,
+                            "id": 5.514428649835663,
+                            "container": 4.514428649835663,
+                            "config": {
+                              "type": "icon",
+                              "name": "Icon",
+                              "icon": "copyright",
+                              "category": "General",
+                              "properties": {
+                                "icon": {
+                                  "type": "icon",
+                                  "name": "Icon",
+                                  "value": "lock"
+                                },
+                                "width": {
+                                  "type": "width",
+                                  "name": "width",
+                                  "value": "100",
+                                  "unit": "%",
+                                  "category": "Layout"
+                                },
+                                "height": {
+                                  "type": "height",
+                                  "name": "heiht",
+                                  "value": "30",
+                                  "unit": "px",
+                                  "category": "Layout"
+                                },
+                                "margin": {
+                                  "type": "margin",
+                                  "name": "margin",
+                                  "category": "Layout",
+                                  "value": "0px 0px 0px 0px"
+                                },
+                                "padding": {
+                                  "type": "padding",
+                                  "name": "padding",
+                                  "category": "Layout",
+                                  "value": "0px 0px 0px 0px"
+                                },
+                                "hAlignment": {
+                                  "type": "h-alignment",
+                                  "name": "horizontally",
+                                  "value": "left",
+                                  "category": "Alignment"
+                                },
+                                "vAlignment": {
+                                  "type": "v-alignment",
+                                  "name": "vertically",
+                                  "value": "top",
+                                  "category": "Alignment"
+                                },
+                                "fontSize": {
+                                  "type": "font-size",
+                                  "name": "Size",
+                                  "value": "30",
+                                  "unit": "px"
+                                },
+                                "fontColor": {
+                                  "type": "color",
+                                  "name": "Color",
+                                  "value": "",
+                                  "color": "#aaa"
+                                }
+                              }
+                            },
+                            "components": []
+                          }
+                        ],
+                        "sections": [
+                          {
+                            "id": null,
+                            "config": {
+                              "type": "icon",
+                              "name": "Icon",
+                              "icon": "copyright",
+                              "category": "General",
+                              "properties": {
+                                "icon": {
+                                  "type": "icon",
+                                  "name": "Icon",
+                                  "value": "copyright"
+                                },
+                                "width": {
+                                  "type": "width",
+                                  "name": "width",
+                                  "value": "100",
+                                  "unit": "%",
+                                  "category": "Layout"
+                                },
+                                "height": {
+                                  "type": "height",
+                                  "name": "heiht",
+                                  "value": "30",
+                                  "unit": "px",
+                                  "category": "Layout"
+                                },
+                                "margin": {
+                                  "type": "margin",
+                                  "name": "margin",
+                                  "category": "Layout",
+                                  "value": "0px 0px 0px 0px"
+                                },
+                                "padding": {
+                                  "type": "padding",
+                                  "name": "padding",
+                                  "category": "Layout",
+                                  "value": "0px 0px 0px 0px"
+                                },
+                                "hAlignment": {
+                                  "type": "h-alignment",
+                                  "name": "horizontally",
+                                  "value": "left",
+                                  "category": "Alignment"
+                                },
+                                "vAlignment": {
+                                  "type": "v-alignment",
+                                  "name": "vertically",
+                                  "value": "top",
+                                  "category": "Alignment"
+                                },
+                                "fontSize": {
+                                  "type": "font-size",
+                                  "name": "Size",
+                                  "value": "30",
+                                  "unit": "px"
+                                },
+                                "fontColor": {
+                                  "type": "color",
+                                  "name": "Color",
+                                  "value": "",
+                                  "color": "#000"
+                                }
+                              }
+                            },
+                            "container": 0,
+                            "components": [],
+                            "hidden": false,
+                            "order": 0
+                          }
+                        ]
+                      },
+                      {
+                        "hidden": false,
+                        "order": 3,
+                        "id": 6.514428649835663,
+                        "container": 1.5144286498356627,
+                        "config": {
+                          "type": "button",
+                          "name": "Button",
+                          "icon": "radio_button_checked",
+                          "category": "General",
+                          "properties": {
+                            "backgroundColor": {
+                              "type": "color",
+                              "name": "BG Color",
+                              "value": "primary",
+                              "color": "",
+                              "category": "Background"
+                            },
+                            "buttonText": {
+                              "type": "text",
+                              "name": "Text",
+                              "value": "Login"
+                            },
+                            "margin": {
+                              "type": "margin",
+                              "name": "margin",
+                              "category": "Layout",
+                              "value": "0px 25% 30px 25%"
+                            },
+                            "padding": {
+                              "type": "padding",
+                              "name": "padding",
+                              "category": "Layout",
+                              "value": "10px 0px 10px 0px"
+                            },
+                            "width": {
+                              "type": "width",
+                              "name": "width",
+                              "value": "100",
+                              "category": "Layout"
+                            },
+                            "buttonWidth": {
+                              "type": "width",
+                              "name": "button Width",
+                              "value": "100",
+                              "unit": "%"
+                            },
+                            "textAlign": {
+                              "type": "h-alignment",
+                              "name": "text align",
+                              "value": "center",
+                              "category": "Font"
+                            },
+                            "fontSize": {
+                              "type": "font-size",
+                              "name": "Size",
+                              "value": "18",
+                              "unit": "px",
+                              "category": "Font"
+                            },
+                            "fontWeight": {
+                              "type": "font-weight",
+                              "name": "Weight",
+                              "value": "bold",
+                              "category": "Font"
+                            },
+                            "fontColor": {
+                              "type": "color",
+                              "name": "Color",
+                              "value": "",
+                              "color": "#fff",
+                              "category": "Font"
+                            }
+                          }
+                        },
+                        "components": []
+                      }
+                    ],
+                    "sections": [
+                      {
+                        "config": {
+                          "type": "row",
+                          "name": "Row",
+                          "icon": "view_agenda",
+                          "category": "Layout",
+                          "properties": {
+                            "backgroundColor": {
+                              "type": "color",
+                              "name": "BG color",
+                              "value": "",
+                              "color": "",
+                              "category": "Background"
+                            },
+                            "margin": {
+                              "type": "margin",
+                              "name": "margin",
+                              "category": "Layout",
+                              "value": "0px 0px 0px 0px"
+                            },
+                            "padding": {
+                              "type": "padding",
+                              "name": "padding",
+                              "category": "Layout",
+                              "value": "0px 0px 0px 0px"
+                            },
+                            "height": {
+                              "type": "height",
+                              "name": "height",
+                              "category": "Layout",
+                              "value": "auto"
+                            },
+                            "backgroundImage": {
+                              "type": "background-image",
+                              "name": "BG image",
+                              "value": "",
+                              "category": "Background",
+                              "properties": {
+                                "position": {
+                                  "type": "background-position",
+                                  "name": "Position",
+                                  "value": "center",
+                                  "category": "Background"
+                                },
+                                "size": {
+                                  "type": "background-size",
+                                  "name": "Size",
+                                  "value": "cover",
+                                  "xValue": "",
+                                  "yValue": "",
+                                  "category": "Background"
+                                },
+                                "repeate": {
+                                  "type": "background-repeat",
+                                  "name": "Repeate Image",
+                                  "value": "no-repeat",
+                                  "category": "Background"
+                                }
+                              }
+                            },
+                            "flexDirection": {
+                              "type": "direction",
+                              "name": "Items direction",
+                              "value": "flex-row",
+                              "category": "Layout"
+                            },
+                            "justifyContent": {
+                              "type": "justify-content",
+                              "name": "H Alignment",
+                              "value": "justify-content-start",
+                              "category": "Layout"
+                            },
+                            "alignItems": {
+                              "type": "align-items",
+                              "name": "V Alignment",
+                              "value": "align-items-start",
+                              "category": "Layout"
+                            }
+                          }
+                        },
+                        "container": 0,
+                        "components": [],
+                        "id": null,
+                        "sections": [],
+                        "hidden": false,
+                        "order": 0
+                      }
+                    ]
+                  }
+                ],
+                "sections": []
+              }
+            ]
+          }
+        ],
+        "sections": [
+          {
+            "config": {
+              "type": "row",
+              "name": "Row",
+              "icon": "view_agenda",
+              "category": "Layout",
+              "properties": {
+                "backgroundColor": {
+                  "type": "color",
+                  "name": "BG color",
+                  "value": "",
+                  "color": "",
+                  "category": "Background"
+                },
+                "margin": {
+                  "type": "margin",
+                  "name": "margin",
+                  "category": "Layout",
+                  "value": "0px 0px 0px 0px"
+                },
+                "padding": {
+                  "type": "padding",
+                  "name": "padding",
+                  "category": "Layout",
+                  "value": "0px 0px 0px 0px"
+                },
+                "height": {
+                  "type": "height",
+                  "name": "height",
+                  "category": "Layout",
+                  "value": "auto"
+                },
+                "backgroundImage": {
+                  "type": "background-image",
+                  "name": "BG image",
+                  "value": "",
+                  "category": "Background",
+                  "properties": {
+                    "position": {
+                      "type": "background-position",
+                      "name": "Position",
+                      "value": "center",
+                      "category": "Background"
+                    },
+                    "size": {
+                      "type": "background-size",
+                      "name": "Size",
+                      "value": "cover",
+                      "xValue": "",
+                      "yValue": "",
+                      "category": "Background"
+                    },
+                    "repeate": {
+                      "type": "background-repeat",
+                      "name": "Repeate Image",
+                      "value": "no-repeat",
+                      "category": "Background"
+                    }
+                  }
+                },
+                "flexDirection": {
+                  "type": "direction",
+                  "name": "Items direction",
+                  "value": "flex-row",
+                  "category": "Layout"
+                },
+                "justifyContent": {
+                  "type": "justify-content",
+                  "name": "H Alignment",
+                  "value": "justify-content-start",
+                  "category": "Layout"
+                },
+                "alignItems": {
+                  "type": "align-items",
+                  "name": "V Alignment",
+                  "value": "align-items-start",
+                  "category": "Layout"
+                }
+              }
+            },
+            "container": 0,
+            "components": [],
+            "id": null,
+            "sections": [],
+            "hidden": false,
+            "order": 0
+          }
+        ]
+      }
+    ],
+    "order": 2
+  }
+}

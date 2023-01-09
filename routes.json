@@ -1,0 +1,18 @@
+{
+  "/ccoperate/process-definition/page": "/process-definition",
+  "/ccoperate/process-definition/:id": "/process-definition/:id",
+  
+  "/ccoperate/process-instances/page\\?page=:page&size=:size&definitionKey=:key": "/process-instances?_page=:page&_limit=:size&processId=:key",
+  "/ccoperate/process-instance/:id/flow": "/flow",
+  "/ccoperate/process-instance/:id": "/process-instances/:id",
+  "/ccoperate/user-task/page\\?page=:page&size=:size&user=:user&process=:process&creationDate=:creationDate&progress=:progress": "/user-tasks?assignee.loginName=:user&process=:process&creationTime=:creationDate&taskState=:progress",
+  "/ccoperate/user-task/page\\?page=:page&size=:size&user=:user": "/user-tasks?assignee.loginName=:user",
+  "/ccoperate/user-task/page\\?page=:page&size=:size&process=:process": "/user-tasks?processDefinitionId=:process",
+  "/ccoperate/user-task/page\\?page=:page&size=:size&creationDate=:creationDate": "/user-tasks?creationTime=:creationDate",
+  "/ccoperate/user-task/page\\?page=:page&size=:size&progress=:progress": "/user-tasks?taskStatus=:progress",
+  "/ccoperate/user-task/page\\?page=:page&size=:size": "/user-tasks",
+  "/ccoperate/my-task/page\\?page=:page&size=:size": "/my-tasks",
+  "/ccoperate/process-variable/:id": "/processVarValue/:id",
+  "/applications/:id": "/applications/:id?_embed=pages&_embed=workflows&_embed=models&_embed=classMeta",
+  "/applications": "/applications?_embed=pages&_embed=workflows&_embed=models&_embed=classMeta"
+}

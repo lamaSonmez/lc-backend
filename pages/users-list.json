@@ -1,0 +1,670 @@
+{
+  "page": {
+    "id": 3,
+    "name": "Users Index",
+    "components": [
+      {
+        "hidden": false,
+        "order": 1,
+        "id": 0.7154329,
+        "container": 0,
+        "config": {
+          "type": "column",
+          "name": "Column",
+          "icon": "view_column",
+          "category": "Layout",
+          "properties": {
+            "width": {
+              "type": "width",
+              "name": "width",
+              "value": "100",
+              "category": "Layout"
+            },
+            "height": {
+              "type": "height",
+              "name": "height",
+              "value": "100",
+              "category": "Layout"
+            },
+            "margin": {
+              "type": "margin",
+              "name": "margin",
+              "category": "Layout",
+              "value": "0px 0px 0px 0px"
+            },
+            "padding": {
+              "type": "padding",
+              "name": "padding",
+              "category": "Layout",
+              "value": "0px 0px 0px 0px"
+            },
+            "backgroundColor": {
+              "type": "color",
+              "name": "BG color",
+              "value": "",
+              "color": "#fff",
+              "category": "Background"
+            },
+            "backgroundImage": {
+              "type": "background-image",
+              "name": "BG image",
+              "value": "",
+              "category": "Background",
+              "properties": {
+                "position": {
+                  "type": "background-position",
+                  "name": "Position",
+                  "value": "center",
+                  "category": "Background"
+                },
+                "size": {
+                  "type": "background-size",
+                  "name": "Size",
+                  "value": "cover",
+                  "xValue": "",
+                  "yValue": "",
+                  "category": "Background"
+                },
+                "repeate": {
+                  "type": "background-repeat",
+                  "name": "Repeate Image",
+                  "value": "no-repeat",
+                  "category": "Background"
+                }
+              }
+            }
+          }
+        },
+        "components": [
+          {
+            "hidden": false,
+            "order": 1,
+            "id": 1.392052868166912,
+            "container": 0.7154329,
+            "config": {
+              "type": "row",
+              "name": "Row",
+              "icon": "view_agenda",
+              "category": "Layout",
+              "properties": {
+                "backgroundColor": {
+                  "type": "color",
+                  "name": "BG color",
+                  "value": "",
+                  "color": "",
+                  "category": "Background"
+                },
+                "margin": {
+                  "type": "margin",
+                  "name": "margin",
+                  "category": "Layout",
+                  "value": "0px 0px 0px 0px"
+                },
+                "padding": {
+                  "type": "padding",
+                  "name": "padding",
+                  "category": "Layout",
+                  "value": "0px 0px 0px 0px"
+                },
+                "height": {
+                  "type": "height",
+                  "name": "height",
+                  "category": "Layout",
+                  "value": "auto"
+                },
+                "backgroundImage": {
+                  "type": "background-image",
+                  "name": "BG image",
+                  "value": "",
+                  "category": "Background",
+                  "properties": {
+                    "position": {
+                      "type": "background-position",
+                      "name": "Position",
+                      "value": "center",
+                      "category": "Background"
+                    },
+                    "size": {
+                      "type": "background-size",
+                      "name": "Size",
+                      "value": "cover",
+                      "xValue": "",
+                      "yValue": "",
+                      "category": "Background"
+                    },
+                    "repeate": {
+                      "type": "background-repeat",
+                      "name": "Repeate Image",
+                      "value": "no-repeat",
+                      "category": "Background"
+                    }
+                  }
+                },
+                "flexDirection": {
+                  "type": "direction",
+                  "name": "Items direction",
+                  "value": "flex-row",
+                  "category": "Layout"
+                },
+                "justifyContent": {
+                  "type": "justify-content",
+                  "name": "H Alignment",
+                  "value": "justify-content-start",
+                  "category": "Layout"
+                },
+                "alignItems": {
+                  "type": "align-items",
+                  "name": "V Alignment",
+                  "value": "align-items-start",
+                  "category": "Layout"
+                }
+              }
+            },
+            "components": [
+              {
+                "hidden": false,
+                "order": 1,
+                "id": 3.392052868166912,
+                "container": 1.392052868166912,
+                "config": {
+                  "type": "column",
+                  "name": "Column",
+                  "icon": "view_column",
+                  "category": "Layout",
+                  "properties": {
+                    "width": {
+                      "type": "width",
+                      "name": "width",
+                      "value": "100",
+                      "category": "Layout"
+                    },
+                    "height": {
+                      "type": "height",
+                      "name": "height",
+                      "value": "100",
+                      "category": "Layout"
+                    },
+                    "margin": {
+                      "type": "margin",
+                      "name": "margin",
+                      "category": "Layout",
+                      "value": "0px 0px 0px 0px"
+                    },
+                    "padding": {
+                      "type": "padding",
+                      "name": "padding",
+                      "category": "Layout",
+                      "value": "0px 15px 0px 15px"
+                    },
+                    "backgroundColor": {
+                      "type": "color",
+                      "name": "BG color",
+                      "value": "",
+                      "color": "",
+                      "category": "Background"
+                    },
+                    "bacgroundGradientColor": {
+                      "type": "gradient-color",
+                      "name": "BG Gradient Color",
+                      "value": "",
+                      "category": "Background"
+                    },
+                    "backgroundImage": {
+                      "type": "background-image",
+                      "name": "BG image",
+                      "value": "",
+                      "category": "Background",
+                      "properties": {
+                        "position": {
+                          "type": "background-position",
+                          "name": "Position",
+                          "value": "center",
+                          "category": "Background"
+                        },
+                        "size": {
+                          "type": "background-size",
+                          "name": "Size",
+                          "value": "cover",
+                          "xValue": "",
+                          "yValue": "",
+                          "category": "Background"
+                        },
+                        "repeate": {
+                          "type": "background-repeat",
+                          "name": "Repeate Image",
+                          "value": "no-repeat",
+                          "category": "Background"
+                        }
+                      }
+                    }
+                  }
+                },
+                "components": [
+                  {
+                    "hidden": false,
+                    "order": 1,
+                    "id": 4.392052868166912,
+                    "container": 3.392052868166912,
+                    "config": {
+                      "type": "text",
+                      "name": "Text",
+                      "icon": "title",
+                      "category": "General",
+                      "properties": {
+                        "text": {
+                          "type": "text",
+                          "name": "Text",
+                          "value": "Users"
+                        },
+                        "width": {
+                          "type": "width",
+                          "name": "width",
+                          "value": "100",
+                          "category": "Layout"
+                        },
+                        "height": {
+                          "type": "height",
+                          "name": "width",
+                          "value": "auto",
+                          "category": "Layout"
+                        },
+                        "margin": {
+                          "type": "margin",
+                          "name": "margin",
+                          "category": "Layout",
+                          "value": "30px 0px 30px 0px"
+                        },
+                        "padding": {
+                          "type": "padding",
+                          "name": "padding",
+                          "category": "Layout",
+                          "value": "0px 0px 0px 0px"
+                        },
+                        "textAlign": {
+                          "type": "h-alignment",
+                          "name": "text align",
+                          "value": "center"
+                        },
+                        "fontSize": {
+                          "type": "font-size",
+                          "name": "Size",
+                          "value": "30",
+                          "unit": "px"
+                        },
+                        "fontWeight": {
+                          "type": "font-weight",
+                          "name": "Weight",
+                          "value": "bold"
+                        },
+                        "fontColor": {
+                          "type": "color",
+                          "name": "Color",
+                          "value": "",
+                          "color": "#000"
+                        },
+                        "backgroundColor": {
+                          "type": "color",
+                          "name": "Background Color",
+                          "value": "",
+                          "color": "#"
+                        }
+                      }
+                    },
+                    "components": []
+                  },
+                  {
+                    "hidden": false,
+                    "order": 2,
+                    "id": 5.392052868166912,
+                    "container": 3.392052868166912,
+                    "config": {
+                      "type": "line",
+                      "name": "Line",
+                      "icon": "linear_scale",
+                      "category": "General",
+                      "properties": {
+                        "width": {
+                          "type": "width",
+                          "name": "width",
+                          "value": "100",
+                          "category": "Layout"
+                        },
+                        "height": {
+                          "type": "height",
+                          "name": "height",
+                          "value": "1",
+                          "unit": "px",
+                          "category": "Layout"
+                        },
+                        "margin": {
+                          "type": "margin",
+                          "name": "margin",
+                          "category": "Layout",
+                          "value": "0px 0px 30px 0px"
+                        },
+                        "padding": {
+                          "type": "padding",
+                          "name": "padding",
+                          "category": "Layout",
+                          "value": "0px 0px 0px 0px"
+                        },
+                        "color": {
+                          "type": "color",
+                          "name": "Color",
+                          "value": "",
+                          "color": "#aaa"
+                        }
+                      }
+                    },
+                    "components": []
+                  }
+                ],
+                "sections": [
+                  {
+                    "config": {
+                      "type": "row",
+                      "name": "Row",
+                      "icon": "view_agenda",
+                      "category": "Layout",
+                      "properties": {
+                        "backgroundColor": {
+                          "type": "color",
+                          "name": "BG color",
+                          "value": "",
+                          "color": "",
+                          "category": "Background"
+                        },
+                        "margin": {
+                          "type": "margin",
+                          "name": "margin",
+                          "category": "Layout",
+                          "value": "0px 0px 0px 0px"
+                        },
+                        "padding": {
+                          "type": "padding",
+                          "name": "padding",
+                          "category": "Layout",
+                          "value": "0px 0px 0px 0px"
+                        },
+                        "height": {
+                          "type": "height",
+                          "name": "height",
+                          "category": "Layout",
+                          "value": "auto"
+                        },
+                        "backgroundImage": {
+                          "type": "background-image",
+                          "name": "BG image",
+                          "value": "",
+                          "category": "Background",
+                          "properties": {
+                            "position": {
+                              "type": "background-position",
+                              "name": "Position",
+                              "value": "center",
+                              "category": "Background"
+                            },
+                            "size": {
+                              "type": "background-size",
+                              "name": "Size",
+                              "value": "cover",
+                              "xValue": "",
+                              "yValue": "",
+                              "category": "Background"
+                            },
+                            "repeate": {
+                              "type": "background-repeat",
+                              "name": "Repeate Image",
+                              "value": "no-repeat",
+                              "category": "Background"
+                            }
+                          }
+                        },
+                        "flexDirection": {
+                          "type": "direction",
+                          "name": "Items direction",
+                          "value": "flex-row",
+                          "category": "Layout"
+                        },
+                        "justifyContent": {
+                          "type": "justify-content",
+                          "name": "H Alignment",
+                          "value": "justify-content-start",
+                          "category": "Layout"
+                        },
+                        "alignItems": {
+                          "type": "align-items",
+                          "name": "V Alignment",
+                          "value": "align-items-start",
+                          "category": "Layout"
+                        }
+                      }
+                    },
+                    "container": 0,
+                    "components": [],
+                    "id": null,
+                    "sections": [],
+                    "hidden": false,
+                    "order": 0
+                  }
+                ]
+              }
+            ],
+            "sections": []
+          },
+          {
+            "hidden": false,
+            "order": 2,
+            "id": 6.392052868166912,
+            "container": 0.7154329,
+            "config": {
+              "type": "row",
+              "name": "Row",
+              "icon": "view_agenda",
+              "category": "Layout",
+              "properties": {
+                "backgroundColor": {
+                  "type": "color",
+                  "name": "BG color",
+                  "value": "",
+                  "color": "",
+                  "category": "Background"
+                },
+                "margin": {
+                  "type": "margin",
+                  "name": "margin",
+                  "category": "Layout",
+                  "value": "0px 0px 0px 0px"
+                },
+                "padding": {
+                  "type": "padding",
+                  "name": "padding",
+                  "category": "Layout",
+                  "value": "0px 15px 0px 15px"
+                },
+                "height": {
+                  "type": "height",
+                  "name": "height",
+                  "category": "Layout",
+                  "value": "auto"
+                },
+                "backgroundImage": {
+                  "type": "background-image",
+                  "name": "BG image",
+                  "value": "",
+                  "category": "Background",
+                  "properties": {
+                    "position": {
+                      "type": "background-position",
+                      "name": "Position",
+                      "value": "center",
+                      "category": "Background"
+                    },
+                    "size": {
+                      "type": "background-size",
+                      "name": "Size",
+                      "value": "cover",
+                      "xValue": "",
+                      "yValue": "",
+                      "category": "Background"
+                    },
+                    "repeate": {
+                      "type": "background-repeat",
+                      "name": "Repeate Image",
+                      "value": "no-repeat",
+                      "category": "Background"
+                    }
+                  }
+                },
+                "flexDirection": {
+                  "type": "direction",
+                  "name": "Items direction",
+                  "value": "flex-row",
+                  "category": "Layout"
+                },
+                "justifyContent": {
+                  "type": "justify-content",
+                  "name": "H Alignment",
+                  "value": "justify-content-start",
+                  "category": "Layout"
+                },
+                "alignItems": {
+                  "type": "align-items",
+                  "name": "V Alignment",
+                  "value": "align-items-start",
+                  "category": "Layout"
+                }
+              }
+            },
+            "components": [
+              {
+                "hidden": false,
+                "order": 1,
+                "id": 7.392052868166912,
+                "container": 6.392052868166912,
+                "config": {
+                  "type": "table",
+                  "name": "Table",
+                  "icon": "table_chart",
+                  "category": "General",
+                  "properties": {
+                    "margin": {
+                      "type": "margin",
+                      "name": "margin",
+                      "category": "Layout",
+                      "value": "0px 0px 0px 0px"
+                    },
+                    "padding": {
+                      "type": "padding",
+                      "name": "padding",
+                      "category": "Layout",
+                      "value": "0px 0px 0px 0px"
+                    },
+                    "width": {
+                      "type": "width",
+                      "name": "width",
+                      "category": "Layout",
+                      "value": "100"
+                    }
+                  }
+                },
+                "components": []
+              }
+            ],
+            "sections": []
+          }
+        ],
+        "sections": [
+          {
+            "config": {
+              "type": "row",
+              "name": "Row",
+              "icon": "view_agenda",
+              "category": "Layout",
+              "properties": {
+                "backgroundColor": {
+                  "type": "color",
+                  "name": "BG color",
+                  "value": "",
+                  "color": "",
+                  "category": "Background"
+                },
+                "margin": {
+                  "type": "margin",
+                  "name": "margin",
+                  "category": "Layout",
+                  "value": "0px 0px 0px 0px"
+                },
+                "padding": {
+                  "type": "padding",
+                  "name": "padding",
+                  "category": "Layout",
+                  "value": "0px 0px 0px 0px"
+                },
+                "height": {
+                  "type": "height",
+                  "name": "height",
+                  "category": "Layout",
+                  "value": "auto"
+                },
+                "backgroundImage": {
+                  "type": "background-image",
+                  "name": "BG image",
+                  "value": "",
+                  "category": "Background",
+                  "properties": {
+                    "position": {
+                      "type": "background-position",
+                      "name": "Position",
+                      "value": "center",
+                      "category": "Background"
+                    },
+                    "size": {
+                      "type": "background-size",
+                      "name": "Size",
+                      "value": "cover",
+                      "xValue": "",
+                      "yValue": "",
+                      "category": "Background"
+                    },
+                    "repeate": {
+                      "type": "background-repeat",
+                      "name": "Repeate Image",
+                      "value": "no-repeat",
+                      "category": "Background"
+                    }
+                  }
+                },
+                "flexDirection": {
+                  "type": "direction",
+                  "name": "Items direction",
+                  "value": "flex-row",
+                  "category": "Layout"
+                },
+                "justifyContent": {
+                  "type": "justify-content",
+                  "name": "H Alignment",
+                  "value": "justify-content-start",
+                  "category": "Layout"
+                },
+                "alignItems": {
+                  "type": "align-items",
+                  "name": "V Alignment",
+                  "value": "align-items-start",
+                  "category": "Layout"
+                }
+              }
+            },
+            "container": 0,
+            "components": [],
+            "id": null,
+            "sections": [],
+            "hidden": false,
+            "order": 0
+          }
+        ]
+      }
+    ],
+    "order": 2
+  }
+}
