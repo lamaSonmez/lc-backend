@@ -1910,7 +1910,7 @@
                 "name": "Navigation"
               },
               "returnType": "unknown",
-              "returnObjectType": {
+              "returnSubType": {
                 "modelId": 0,
                 "fieldId": 0
               },
@@ -26725,7 +26725,7 @@
                 "name": "Load Entities"
               },
               "returnType": "array",
-              "returnObjectType": {
+              "returnSubType": {
                 "modelId": "4",
                 "fieldId": 0
               },
